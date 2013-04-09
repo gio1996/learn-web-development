@@ -19,6 +19,10 @@ article h1 {
 	color: blue;
 }
 
+.profile-image{
+	height: 50px;
+	}
+
 #special-one {
 	color: green;
 }
