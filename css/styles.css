@@ -1,3 +1,7 @@
+html {
+	background-color: lightgrey;
+}
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -5,13 +9,14 @@ body {
 ul {
 	list-style: none;
 }
-
-h1 {
+/*direktes Kind vom Body und keine darunter*/
+header > h1 {
 	text-transform: uppercase;
+	display: inline;
 }
 
 article h1 {
-	text-transform: none;
+	font-size: 20px;
 	}
 
 .html5-tag {
