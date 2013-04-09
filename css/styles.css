@@ -1,3 +1,25 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 }
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+article h1 {
+	text-transform: none;
+	}
+
+.html5-tag {
+	color: red;
+	color: blue;
+}
+
+#special-one {
+	color: green;
+}
+
