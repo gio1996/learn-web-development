@@ -1,0 +1,20 @@
+<form action="myform.php" method="post">
+	<fieldset>
+		<legend>Anrede</legend>
+		<input name="gender" id="gender-male" value="male" type="radio">
+		<label for="gender-male">Herr</label>
+		<input name="gender" id="gender-female" value="female" type="radio">
+		<label for="gender-female">Frau</label>
+	</fieldset>
+
+	<label for="lastname">Nachname</label>
+	<input name="lastname" id="lastname" type="text" placeholder="e. g Doe" required>
+	
+	<label for="channel">Wie sind Sie auf uns aufmerksam geworden</label>
+	<select id="channel" name="channel">
+		<option >bitte wählen</option>
+		<option value="1">Zeitung</option>
+		<option value="2" selected>Internet</option>
+		<option value="3" disabled>Nachrichten</option>
+	</select>
+</form>
