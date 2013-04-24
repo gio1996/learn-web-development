@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Twitter Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<form action="myform.php" method="post">
+	<fieldset>
+		<legend>Anrede</legend>
+		<label class="radio inline">		
+			<input name="gender" class="inline" value="male" type="radio">
+			Herr
+		</label>
+		
+		<label class="radio inline">
+			<input name="gender" class="inline" value="female" type="radio">
+			Frau
+		</label>
+	</fieldset>
+
+	<label for="lastname">Nachname</label>
+	<input name="lastname" id="lastname" type="text" maxlength="3" placeholder="e. g Doe" required>
+	
+	<label for="channel">Wie sind Sie auf uns aufmerksam geworden</label>
+	<select id="channel" name="channel">
+		<option >bitte wählen</option>
+		<option value="1">Zeitung</option>
+		<option value="2" selected>Internet</option>
+		<option value="3" disabled>Nachrichten</option>
+	</select>
+</form>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
+
