@@ -11,8 +11,6 @@ body {
 	position: relative;
 }
 
-
-
 .meta-nav {
 	position: absolute;
 	right: 10px;
@@ -31,6 +29,16 @@ body {
 	background-color: aqua;
 	padding: 5px 10px;
 	margin-right: 3px;
+	text-decoration: none;
+}
+
+.main-navb a{
+	font-family: Times;
+	color: lime;
+	border-radius: 10px;
+	background-color: blue;
+	padding: 15px 30px;
+	margin-right: 6px;
 	text-decoration: none;
 }
 
