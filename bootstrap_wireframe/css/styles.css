@@ -1,0 +1,42 @@
+html {
+	background-color: white;	
+	height: 100%;
+}
+
+body {
+	background-color: #a15353;
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+}
+
+[class*=span] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.main-header {
+	padding-top: 20px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.form-search {
+	margin-top: 5px;
+}
+
+.search-input {
+	width: auto;
+}
+
+.hl-main {
+	font-size: 24.5px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
