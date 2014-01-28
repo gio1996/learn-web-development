@@ -1,0 +1,21 @@
+body {
+
+}
+
+.main-nav a,
+.main-nav li {
+  color: red;
+  font-style: italic;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.blue {
+  color: blue;
+}
+
+.hidden {
+  display: none;
+}
