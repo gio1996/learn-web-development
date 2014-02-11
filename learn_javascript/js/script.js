@@ -1,3 +1,7 @@
+/* Homework:
+1. Codecademy JS course
+2. Lookup .html() and .text() in jQuery documentation
+*/
 
 /* data types
 
