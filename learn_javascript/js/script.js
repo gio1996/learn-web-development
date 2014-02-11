@@ -1,17 +1,17 @@
-$("article h1").on("mouseenter mouseleave", function () {
 
-  $("article h1").addClass("blue");
-  $("p").removeClass("hidden");
+function toggleArticle() {
+  $(this).toggleClass("blue");
+  $("p").toggleClass("hidden");
+  $("footer").toggleClass("increase-font-size");
+}
+$("article h1").on("click", toggleArticle);
 
-  $("footer").css("font-size", "32px");
 
-  $("article h1").off();
-});
-
-$(".main-nav a").on("click", function () {
+function boldMenu() {
 	var linkWasBold = $(this).hasClass("bold");
 	$("a").removeClass("bold");
-	if(linkWasBold == false) {
+	if(linkWasBold === false) {
 		$(this).addClass("bold");
 	}
-});
+}
+$(".main-nav a, footer a").on("click", boldMenu);

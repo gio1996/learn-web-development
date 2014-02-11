@@ -2,7 +2,7 @@ body {
 
 }
 
-.main-nav a,
+a,
 .main-nav li {
   color: red;
   font-style: italic;
@@ -22,4 +22,8 @@ body {
 
 .bold {
 	font-weight: bold;
+}
+
+.increase-font-size {
+	font-size: 32px;
 }
